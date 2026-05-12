@@ -23,6 +23,14 @@ public class CVendedor extends AUsuario implements IUsuario {
     public void veridicarPermiso() {
         
     }
-    
-    
+
+    @Override
+    public void generarIdUnico() {
+        
+    }
+
+    @Override
+    public void verificarIdUnico() {
+        
+    }
 }
