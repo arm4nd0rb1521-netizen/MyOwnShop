@@ -1,13 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.my_own_shop;
 
-/**
- *
- * @author Alumno
- */
-public class CGerente {
+public class CGerente extends AUsuario implements IUsuario {
+
+    public CGerente() {
+    }
+
+    public CGerente(int id, String mombre, String contrasenia, String rol) {
+        super(id, mombre, contrasenia, rol);
+    }
+
+    @Override
+    public void login() {
+        
+    }
+
+    @Override
+    public void logout() {
+        
+    }
+
+    @Override
+    public void veridicarPermiso() {
+        
+    }
+    
     
 }

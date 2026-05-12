@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.my_own_shop;
 
-/**
- *
- * @author Alumno
- */
-public class AUsuario {
-    
+public abstract class AUsuario {
+    protected int id;
+    protected String mombre;
+    protected String contrasenia;
+    protected String rol;
+
+    public AUsuario() {
+    }
+
+    public AUsuario(int id, String mombre, String contrasenia, String rol) {
+        this.id = id;
+        this.mombre = mombre;
+        this.contrasenia = contrasenia;
+        this.rol = rol;
+    }
 }
